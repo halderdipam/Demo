@@ -34,7 +34,7 @@ const Form = () => {
     <div>
       <div className="container">
         <div className="row">
-          <div className="col col-md-4 offset-md-4">
+        <div className="col col-md-4 offset-md-4 mt-3 p-8">
             <h3 style={{ textAlign: "center" }}>Number Sort App</h3>
             <form onSubmit={handleSubmit}>
               <div className="row">

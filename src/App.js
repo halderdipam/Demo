@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Form from "./components/Form";
 import Header from "./components/Header";
+import Tab from './components/Tab'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Header />
           <Switch>
             <Route path="/" exact component={Form} />
-          
+            <Route path="/tab" exact component={Tab} />
           </Switch>
         </div>
       </BrowserRouter>
